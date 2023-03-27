@@ -1,0 +1,15 @@
+nav li{
+    display: inline-flex;
+    margin: 5px 3%;
+    vertical-align: middle;
+    font-size: 17px;    
+}
+
+#logo{
+    margin-left: 30%;
+    width: 10%;
+}
+
+form li{
+    margin: 7px 14%;
+}

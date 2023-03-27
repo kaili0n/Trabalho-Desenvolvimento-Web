@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-16x16.png " type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style-cadastro.css">
+    <title>Mundo da Adoção</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img id="logo" src="CLUBE DA ADOÇÃO.png" alt="logo Adote um pet"></li>
+                <li>Quero adotar</li>
+                <li>Quero divulgar</li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="style-cadastro.css">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <form action="#" method="post">
+        <ul>
+            <li><legend>Tipo de entidade</legend></li>
+            <li><input type="radio" id="pessoa" name="entidade" value="entidade" autofocus>
+                <label for="entidade">Doador</label></li>
+            <li><input type="radio" id="ong" name="entidade" value="entidade">
+                <label for="entidade">ONG</label></li>
+            <li><input type="radio" id="adotante" name="entidade" value="entidade">
+                <label for="entidade">Adotante</label</li>
+            <li><label for="Nome">Nome Completo</label></li>
+                <li><input type="text" minlength="2" id="nome" required></li>
+            <li><legend>Endereço</legend></li>
+            <li><label for="cidade">Cidade</label></li>
+                <li><input type="text" minlength="4" id="cidade" required></li>
+            <li><label for="uf">UF</label></li>
+                <li><input type="text" minlength="1" id="uf" required></li>
+            <li><label for="tel">Telefone</label></li>
+                <li><input type="tel" minlength="11" id="tel" required></li>
+            <li><label for="email">Email</label></li>
+                <li><input type="email" minlength="11" id="email" required></li>
+            <li><label for="pass">Crie uma senha com 8 ou mais caracteres, contendo pelo menos uma letra maiuscula e um nomero</label></li>
+                <li><input type="password" minlength="8" id="pass" pattern="[0-9a-zA-Z]" required></li>
+            <li><button type="submit"><a href="cadastro-pet.html">Enviar</a></button></li>
+        </ul>
+    </form>
+</body>
+</html>
