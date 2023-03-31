@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F6F6F6;
+}
+
+
+nav li{
+    display: inline-flex;
+    margin: 5px 1%;
+    vertical-align: middle;
+    font-size: 17px;    
+}
+nav>text{
+    text-align: right;
+}
+#logo{
+    margin: 0 750px 0 45px;
+    width: 5%;
+}
+.box{
+    display: flex;
+    margin: auto;
+    border-radius:15px;
+	width:400px;
+	height:470px;
+	background-color:#CDCDCD;
+}
+
+form li>img{
+    display: flex;
+    margin: auto;
+    width: 150px;
+
+}
+
+form li{
+    margin: 5px 0;
+    text-align: center;
+}
+form li>input{
+    width: 200px;
+    height: 20px;
+    border-radius: 20px;
+    border-color: #545454;
+    color: #545454;
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    font-size: 20px;
+    justify-content: center;
+    vertical-align: center;
+    display: flex;
+    margin: auto;
+}

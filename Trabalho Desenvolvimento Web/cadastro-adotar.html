@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-16x16.png " type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="cadastro-adotar.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img id="logo" src="CLUBE DA ADOÇÃO.png" alt="logo Adote um pet"></li>
+                <li><a href="index.html">Quero adotar</li></a>
+                <li><a href="login.html">Login</a></li>
+                <li><a id="cadastro" href="login.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="box">
+        <form action="#" method="post">
+            <ul>
+                <li><img src="Cópia de CLUBE DA ADOÇÃO.png"></li>
+                    <li><input type="text" minlength="2" id="nome" placeholder="Nome Completo" required></li>
+                <li><legend>Endereço</legend></li>
+                    <li><input type="text" minlength="4" id="cidade" placeholder="Cidade" required></li>
+                    <li><input type="text" minlength="1" id="uf" placeholder="UF" required></li>
+                    <li><input type="tel" minlength="11" id="tel" placeholder="Telefone" required></li>
+                    <li><input type="email" minlength="11" id="email" placeholder="Email" required></li>
+                <li><label for="pass">Crie uma senha com 8 ou mais caracteres, contendo pelo menos uma letra maiuscula e um nomero</label></li>
+                    <li><input type="password" minlength="8" id="pass" pattern="[0-9a-zA-Z]" placeholder="" required></li>
+                <li><button type="submit">Enviar</button></li>
+            </ul>
+        </form>
+    </div>
+</body>
+</html>
