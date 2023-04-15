@@ -1,37 +1,65 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #F6F6F6;
+}
+nav{
+    margin: 8px 0;
+    vertical-align: middle;
+    width: 100%;
 }
 
+#logo{
+    margin: auto 850px auto 50px;
+    width: 5%;
+}
 
 nav li{
     display: inline-flex;
     margin: 5px 1%;
     vertical-align: middle;
-    font-size: 17px;    
-}
-nav>text{
+    font-size: 17px;
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
     text-align: right;
 }
-#logo{
-    margin: 0 750px 0 45px;
-    width: 5%;
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#banner{
+    background-color: #A396C8;
+    width: 100%;
+    padding: 50px 0;
+    padding-bottom: 150px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    color: #FFFF;
+}
+
+#boxs{
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+
 }
 .box{
-    display: flex;
-    margin: auto;
-    border-radius:15px;
+    margin-bottom: 50px;
+    border-radius: 15px;
 	width:400px;
-	height:470px;
-	background-color:#CDCDCD;
+	height:600px;
+	background-color:#FFFF;
+    vertical-align: middle;
+    box-shadow: rgba(0, 0, 0, 0.08) 10px 10px 20px;
 }
 
 form li>img{
     display: flex;
     margin: auto;
-    width: 150px;
-
+    width: 180px;
 }
 
 form li{
@@ -39,20 +67,32 @@ form li{
     text-align: center;
 }
 form li>input{
-    width: 200px;
-    height: 20px;
-    border-radius: 20px;
-    border-color: #545454;
-    color: #545454;
+    width: 250px;
+    height: 30px;
+    border-radius: 6px;
+    border-color: #8672c0;
+    margin: auto;
+    text-align: center;
 }
 
-button{
-    width: 100px;
-    height: 35px;
-    border-radius: 15px;
-    font-size: 20px;
-    justify-content: center;
-    vertical-align: center;
+#senha{
+    font-family: 'Fraunces', serif; 
     display: flex;
     margin: auto;
+    max-width: 260px;
+}
+label{
+    font-family: 'Fraunces', serif;
+}
+button{
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background: #A396C8;
+    border-color: #8672c0;
+    font-family: 'Fraunces', serif;
 }

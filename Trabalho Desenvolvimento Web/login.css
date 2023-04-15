@@ -1,41 +1,63 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #F6F6F6;
+}
+nav{
+    margin: 8px 0;
+    vertical-align: middle;
+    width: 100%;
 }
 
+#logo{
+    margin: auto 850px auto 50px;
+    width: 5%;
+}
 
 nav li{
     display: inline-flex;
     margin: 5px 1%;
     vertical-align: middle;
-    font-size: 17px;    
-}
-nav>text{
+    font-size: 17px;
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
     text-align: right;
 }
-#logo{
-    margin: 0 750px 0 45px;
-    width: 5%;
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+#banner{
+    background-color: #A396C8;
+    width: 100%;
+    padding: 50px 0;
+    padding-bottom: 150px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    color: #FFFF;
 }
 
 #boxs{
-    margin-top: 50px;
+    margin-top: -100px;
     display: flex;
     justify-content: center;
+
 }
 .box{
+    border-radius: 15px;
 	width:400px;
-	height:400px;
-	background-color:#CDCDCD;
+	height:450px;
+	background-color:#FFFF;
     vertical-align: middle;
+    box-shadow: rgba(0, 0, 0, 0.08) 10px 10px 20px;
 }
 
 form li>img{
     display: flex;
     margin: auto;
     width: 180px;
-    justify-content: center;
 }
 form{
     display: flex;
@@ -43,37 +65,44 @@ form{
 }
 
 form li{
-    margin: 10px 0;
+    margin: 10px auto;
+
 }
 form li>input{
     width: 250px;
     height: 40px;
-    border-radius: 20px;
-    border-color: #545454;
-    color: #545454;
+    border-radius: 6px;
+    border-color: #8672c0;
+    margin: auto;
+    text-align: center;
 }
 
 button{
-    width: 100px;
+    width: 250px;
     height: 35px;
-    border-radius: 15px;
+    border-radius: 5px;
     font-size: 20px;
-    justify-content: center;
-    vertical-align: center;
     display: flex;
     margin: auto;
-
+    justify-content: center;
+    background: #A396C8;
+    border-color: #8672c0;
+    font-family: 'Fraunces', serif;
 }
 
 .alternativa{
-    margin: 100px auto;
-    width: 250px;
+    border-color: #8672c0;
+    display: inherit;
+    margin: 20px 19px;
+    width: 160px;
     height: 40px;
-    border-radius: 15px;
-    font-size: 15px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-family: 'Fraunces', serif;
 }
 
 p{
     margin-top: 0;
     text-align: center;
 }
+
