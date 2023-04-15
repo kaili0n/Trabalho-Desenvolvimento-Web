@@ -7,12 +7,6 @@ nav{
     vertical-align: middle;
     width: 100%;
 }
-
-#logo{
-    margin: auto 850px auto 50px;
-    width: 5%;
-}
-
 nav li{
     display: inline-flex;
     margin: 5px 1%;
@@ -22,12 +16,14 @@ nav li{
     font-weight: 600;
     text-align: right;
 }
-
+#logo{
+    margin: auto 850px auto 50px;
+    width: 5%;
+}
 a {
     text-decoration: none;
     color: #000000;
 }
-
 #banner{
     background-color: #A396C8;
     width: 100%;
@@ -39,13 +35,6 @@ a {
     font-weight: 600;
     color: #FFFF;
 }
-
-td{
-    text-align: center;
-    border-left: 50px solid rgb(255, 255, 255);
-    border-right: 50px solid rgb(255,255,255);
-}
-
 #boxs{
     margin: -100px auto;
     display: flex;
@@ -58,17 +47,28 @@ td{
     vertical-align: middle;
     box-shadow: rgba(0, 0, 0, 0.08) 10px 10px 20px;
 }
-
-
+td{
+    text-align: center;
+    border-left: 50px solid rgb(255, 255, 255);
+    border-right: 50px solid rgb(255,255,255);
+}
 td>img{
     display: flex;
     margin: auto;
     width: 180px;
 }
-
 form li{
     margin: 5px 0;
     text-align: center;
+}
+legend{
+    font-family: 'Fraunces', serif;
+}
+label{
+    font-family: 'Fraunces', serif; 
+    display: flex;
+    margin: auto;
+    max-width: 260px;
 }
 form li>input{
     width: 250px;
@@ -77,16 +77,6 @@ form li>input{
     border-color: #8672c0;
     margin: auto;
     text-align: center;
-}
-
-label{
-    font-family: 'Fraunces', serif; 
-    display: flex;
-    margin: auto;
-    max-width: 260px;
-}
-legend{
-    font-family: 'Fraunces', serif;
 }
 .radio{
     justify-content: center;
@@ -104,16 +94,4 @@ button{
     background: #A396C8;
     border-color: #8672c0;
     font-family: 'Fraunces', serif;
-}
-
-#pet form ul{
-    margin: 100px 100px;
-}
-#pet form li{
-    margin: 20px 0;
-    text-align: center;
-}
-#add{
-    width: 250px;
-    height: 70px;
 }

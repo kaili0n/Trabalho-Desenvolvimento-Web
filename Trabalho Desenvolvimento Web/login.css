@@ -7,12 +7,6 @@ nav{
     vertical-align: middle;
     width: 100%;
 }
-
-#logo{
-    margin: auto 850px auto 50px;
-    width: 5%;
-}
-
 nav li{
     display: inline-flex;
     margin: 5px 1%;
@@ -22,7 +16,10 @@ nav li{
     font-weight: 600;
     text-align: right;
 }
-
+#logo{
+    margin: auto 850px auto 50px;
+    width: 5%;
+}
 a {
     text-decoration: none;
     color: #000000;
@@ -38,7 +35,6 @@ a {
     font-weight: 600;
     color: #FFFF;
 }
-
 #boxs{
     margin-top: -100px;
     display: flex;
@@ -53,20 +49,17 @@ a {
     vertical-align: middle;
     box-shadow: rgba(0, 0, 0, 0.08) 10px 10px 20px;
 }
-
-form li>img{
-    display: flex;
-    margin: auto;
-    width: 180px;
-}
 form{
     display: flex;
     justify-content: center;
 }
-
 form li{
     margin: 10px auto;
-
+}
+form li>img{
+    display: flex;
+    margin: auto;
+    width: 180px;
 }
 form li>input{
     width: 250px;
@@ -76,7 +69,6 @@ form li>input{
     margin: auto;
     text-align: center;
 }
-
 button{
     width: 250px;
     height: 35px;
@@ -89,7 +81,6 @@ button{
     border-color: #8672c0;
     font-family: 'Fraunces', serif;
 }
-
 .alternativa{
     border-color: #8672c0;
     display: inherit;
@@ -100,9 +91,3 @@ button{
     font-size: 12px;
     font-family: 'Fraunces', serif;
 }
-
-p{
-    margin-top: 0;
-    text-align: center;
-}
-

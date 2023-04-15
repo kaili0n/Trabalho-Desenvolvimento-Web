@@ -9,12 +9,6 @@ nav{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 12px;
     width: 100%;
 }
-
-#logo{
-    margin: auto 850px auto 50px;
-    width: 5%;
-}
-
 nav li{
     display: inline-flex;
     margin: 5px 1%;
@@ -24,22 +18,19 @@ nav li{
     font-weight: 600;
     text-align: right;
 }
-
+#logo{
+    margin: auto 850px auto 50px;
+    width: 5%;
+}
 a {
     text-decoration: none;
     color: #000000;
-}
-#lema{
-    width:80%;
-    margin: 20px auto;
-    text-align: center;
 }
 #banner{
     height: 270px;
     text-align: center;
     background: #FFFFFF url("logo.jpg") no-repeat center;
 }
-
 h1{
     text-align: center;
     font-family: 'Fraunces', serif;
@@ -47,15 +38,18 @@ h1{
     font-size: 25px;
     margin: auto;
 }
+#lema{
+    width:80%;
+    margin: 20px auto;
+    text-align: center;
+}
 p{
-    font-family: 'Fraunces', serif;s
+    font-family: 'Fraunces', serif;
 }
 #informacoes{
     display: flex;
     justify-content: center;
-
 }
-
 .box{
 	width:300px;
 	height: 210px;
@@ -70,34 +64,17 @@ p{
 ul>li{
     list-style: none;
 }
-
 #incentivo{
     background-color:#A396C8;
     margin: 5% auto;
     height: 100px;
     padding: 30px;
 }
-
 #incentivo p{
     width: 80%;
     margin: 2% auto 0;
     text-align: center;
 }
-
-.postagem{
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px;
-    width: 290px;
-    height: 400px;
-    margin: 30px;
-}
-
-#perfil{
-    min-width: 290px;
-    max-height: 290px;
-    border-radius: 10px 10px 0 0;
-}
-
 .feed ul{
     padding:10px;
     color:#45307e;
@@ -120,6 +97,18 @@ ul>li{
     display: flex;
     justify-content: center;
 }
+.postagem{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px;
+    width: 290px;
+    height: 400px;
+    margin: 30px;
+}
+#perfil{
+    min-width: 290px;
+    max-height: 290px;
+    border-radius: 10px 10px 0 0;
+}
 footer{
     display: inline-flex;
     text-align: center;
@@ -130,7 +119,6 @@ footer{
     background-color: #A396C8;
     color: #ffffff;
 }
-
 footer>ul>li>img{
     width: 30%;
 }

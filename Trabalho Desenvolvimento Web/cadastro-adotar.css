@@ -7,12 +7,6 @@ nav{
     vertical-align: middle;
     width: 100%;
 }
-
-#logo{
-    margin: auto 850px auto 50px;
-    width: 5%;
-}
-
 nav li{
     display: inline-flex;
     margin: 5px 1%;
@@ -22,12 +16,14 @@ nav li{
     font-weight: 600;
     text-align: right;
 }
-
+#logo{
+    margin: auto 850px auto 50px;
+    width: 5%;
+}
 a {
     text-decoration: none;
     color: #000000;
 }
-
 #banner{
     background-color: #A396C8;
     width: 100%;
@@ -39,12 +35,10 @@ a {
     font-weight: 600;
     color: #FFFF;
 }
-
 #boxs{
     margin-top: -100px;
     display: flex;
     justify-content: center;
-
 }
 .box{
     margin-bottom: 50px;
@@ -55,16 +49,17 @@ a {
     vertical-align: middle;
     box-shadow: rgba(0, 0, 0, 0.08) 10px 10px 20px;
 }
-
+form li{
+    margin: 5px 0;
+    text-align: center;
+}
 form li>img{
     display: flex;
     margin: auto;
     width: 180px;
 }
-
-form li{
-    margin: 5px 0;
-    text-align: center;
+label{
+    font-family: 'Fraunces', serif;
 }
 form li>input{
     width: 250px;
@@ -74,15 +69,11 @@ form li>input{
     margin: auto;
     text-align: center;
 }
-
 #senha{
     font-family: 'Fraunces', serif; 
     display: flex;
     margin: auto;
     max-width: 260px;
-}
-label{
-    font-family: 'Fraunces', serif;
 }
 button{
     width: 250px;
