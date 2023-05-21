@@ -29,7 +29,7 @@ a {
 #banner{
     height: 270px;
     text-align: center;
-    background: #FFFFFF url("../img/logo.jpg") no-repeat center;
+    background: #FFFFFF url("../IMG/BANNER.jpg") no-repeat center;
 }
 h1{
     text-align: center;
@@ -75,23 +75,27 @@ ul>li{
     margin: 2% auto 0;
     text-align: center;
 }
-.feed ul{
-    padding:10px;
-    color:#45307e;
-	width:250px;
-    vertical-align: middle;
-    list-style: none;
-    margin: 0;
-    text-align: center;
-    margin: 0 10px;
+.feed{
+    display: flex;
+    justify-content: center;
 }
-.feed ul>li{
-    display: inline-flex;
+table{
+    padding: 1px;
     text-align: center;
-    vertical-align: middle;
-    font-size: 13px;   
-    margin: 6px 3px;
     font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+}
+#imagemanimal{
+    width: 275px;
+    height: 255px;
+}
+#nome{
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+#descricao{
+    padding: 10px
 }
 .feed{
     display: flex;
@@ -100,14 +104,20 @@ ul>li{
 .postagem{
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px;
-    width: 290px;
+    width: 280px;
     height: 400px;
-    margin: 30px;
+    margin: 20px;
+
 }
 #perfil{
-    min-width: 290px;
-    max-height: 290px;
+    min-width: 280px;
+    max-height: 260px;
     border-radius: 10px 10px 0 0;
+}
+
+tr{
+    margin: 50px;
+    padding:10px;
 }
 footer{
     display: inline-flex;
