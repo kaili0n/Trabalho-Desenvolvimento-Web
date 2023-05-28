@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="CSS/login.css">
+    <link rel="stylesheet" href="CSS/gerenciamento.css">
     <title>Mundo da Adoção</title>
 </head>
 <body>
@@ -32,19 +32,36 @@
             </ul>
         </nav>
     </header>
-        <h1 id="banner">Boas-vindas ao Mundo da Adoção</h1>
-        <div id="boxs">
-            <div class="box">
-                <form action="#" method="post">
-                    <ul>
-                        <li><img src="IMG/CLUBE DA ADOCAO.png"></li>
-                        <li><input type="text" minlength="8" autofocus id="username" name="username" placeholder="Usuário" required></li>
-                        <li><input type="password" id="pass" name="pass" placeholder="Senha" pattern="[0-9a-zA-Z]" required></li>
-                        <li><button type="submit"><a href="index.php">Logar</a></button></li>
-                    </ul>
-                </form>
-            </div>
+    <h1 id="banner">Gerencie seus animais</h1>
+    <div class="feed"> 
+        <div id="postagem">
+            <img src="IMG/gatinho.jpg">
+            <table>
+                <tr>
+                    <td id="nome">Nome</td>
+                </tr>
+                <tr>
+                    <td>Idade</td>
+                </tr>
+                <tr>
+                    <td>Especie</td>
+                </tr>
+                <tr>
+                    <td>Raça</td>
+                </tr>
+                <tr>
+                    <td>&#128205; Local</td>
+                </tr>
+                <tr id="texto">
+                    <td>Procedimentos</td>
+                </tr>
+                <tr id="texto">
+                    <td>Informações complementares</td>
+                </tr>
+                <tr>
+                    <td><button>Excluir</button></td>
+                </tr>
+            </table>
         </div>
-
+    </div>
 </body>
-</html>

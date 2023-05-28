@@ -79,55 +79,47 @@ a {
     font-weight: 600;
     color: #FFFF;
 }
-#boxs{
-    margin-top: -100px;
+.feed{
     display: flex;
     justify-content: center;
 }
-.box{
-    margin-bottom: 50px;
-    border-radius: 15px;
-	width:400px;
-	height:600px;
-	background-color:#FFFF;
-    vertical-align: middle;
-    box-shadow: rgba(0, 0, 0, 0.08) 10px 10px 20px;
-}
-form li{
-    margin: 5px 0;
-    text-align: center;
-}
-form li>img{
+#postagem{
+    margin: 2s0px;
+    margin: -100px 20px;
     display: flex;
-    margin: auto;
-    width: 180px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px;
+    background-color: white;
 }
-label{
-    font-family: 'Fraunces', serif;
-}
-form li>input{
+img{
     width: 250px;
-    height: 30px;
-    border-radius: 6px;
-    border-color: #8672c0;
-    margin: auto;
-    text-align: center;
+    border-radius: 10px 0 0 10px;
 }
-#senha{
-    font-family: 'Fraunces', serif; 
-    display: flex;
-    margin: auto;
-    max-width: 260px;
+table{
+    width: 300px;
+    margin: 20px;
+}
+#texto{
+    height: 50px;
+}
+td{
+    font-family: 'Fraunces', serif;
+    font-size: 16px;
+    margin-top: 5px;
+    vertical-align: middle;
 }
 button{
-    width: 250px;
+    text-align: center;
+    color: white;
+    width: 220px;
     height: 35px;
     border-radius: 5px;
     font-size: 20px;
     display: flex;
     margin: auto;
     justify-content: center;
-    background: #A396C8;
-    border-color: #8672c0;
+    background: #c64343;
+    border-color: #c64343;
     font-family: 'Fraunces', serif;
 }
