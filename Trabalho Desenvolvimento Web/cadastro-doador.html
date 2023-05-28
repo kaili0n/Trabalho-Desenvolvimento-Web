@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-16x16.png " type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/cadastro-doador.css">
+    <title>Mundo da Adoção</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img id="logo" src="IMG/LOGO.png" alt="logo Adote um pet"></li>
+                <li><a href="index.html">Quero adotar</li></a>
+                <li><a href="gerenciamento.html">Meus animais</li></a>
+                <li><a href="login.html">Login</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href="text.html">Cadastro</a>
+                        <div class="dropdown-content">
+                          <a href="cadastro-doador.html">Cadastro doador</a>
+                          <a href="cadastro-adotar.html">Cadastro adotante</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1 id="banner">Crie sua conta</h1>
+        <table id="boxs">
+            <tr>
+                <td colspan="2"><img src="IMG/CLUBE DA ADOCAO.png"></td>
+            </tr>
+            <tr>
+                <td class="box">
+                    <form action="#" method="post">
+                        <ul>
+                            <li><legend>Tipo de entidade</legend></li>
+                            <li class="radio" style="margin-left: -9px;"><label for="entidade"><input type="radio" name="entidade" value="entidade" autofocus="">Doador</label></li>
+                            <li class="radio"><label for="entidade"><input type="radio" name="entidade" value="entidade" autofocus/>Entidade</label></li>
+                            <li><input type="text" minlength="2" id="nome" placeholder="Nome Completo" required></li>
+                            <li><legend>Endereço</legend></li>
+                            <li><input type="text" minlength="4" id="cidade" placeholder="Cidade" required></li>
+                            <li><input type="text" minlength="1" id="uf" placeholder="UF" required></li>
+                            <li><input type="tel" minlength="11" id="tel" placeholder="Telefone" required></li>
+                            <li><input type="email" minlength="11" id="email" placeholder="Email" required></li>
+                            <li><label for="pass">Crie uma senha com 8 ou mais caracteres, contendo pelo menos uma letra  maiúscula e um número.</label></li>
+                            <li><input type="password" id="pass" pattern="[0-9a-zA-Z]{8,}" placeholder="Senha" required></li>
+                    </form>
+                </td>
+                <td class="box">
+                    <form action="#" method="post">
+                        <ul>
+                            <li><legend>Dados do pet</legend></li>
+                                <li><input type="text" minlength="2" placeholder="Nome" required></li>
+                                <li><input type="text" minlength="2" placeholder="Espécie" required></li>
+                                <li><input type="text" minlength="2" placeholder="Raça" required></li>
+                                <li><input type="number" maxlength="2" placeholder="Idade" min="1" required></li>
+                                <li><input type="text" minlength="2" placeholder="Procedimentos"></li>
+                                <li><input type="text" minlength="2" id="add" placeholder="Informações complementares"></li>
+                                <li><input type="file" name="arquivos" class="btn btn-success" multiple required></li>
+                        </ul>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit"><a href="index.html">Enviar</a></button></td>
+            </tr>
+        </table>
+</body>
+</html>
