@@ -1,16 +1,16 @@
-# Iniciando o projeto
+# Projeto da materia  de desenvolvimento web
+Curso Analise e desenvovlimento de sistemas, Faculdade Estacio.
 
-Certifique-se que exista um banco de dados local, altere os dados de conexao se necessario.
-Certifique-se que exista as tabelas pet e doador criadas com as colunas corretas
-
-## Criar tabelas
-
-execute o script criar_tabelas.sql para criar as tabelas necessarias
-
-## Apache
-
-certifique-se que o apache esteja sendo executado exemplo: XAMPP
-
-coloque o projeto dev_web em htdocs para funcionar
-
-## HAPPY CODING
+## Requisitos
+YURI FIALHO (2023)
+• Autenticação
+• Página de Login
+• Todas as chamadas deverão ser
+autenticadas, exceto a index e login
+• Funcionalidades:
+• Mínimo 3
+• Sendo, 1 CRUD (Completo)
+• Não pode ser 3 CRUD
+• Validação
+• Página (Frontend)
+• Servidor (Backend) – Recomenda-se PHP
