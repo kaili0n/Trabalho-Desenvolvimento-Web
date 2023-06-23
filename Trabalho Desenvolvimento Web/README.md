@@ -1,5 +1,6 @@
 # Projeto da materia  de desenvolvimento web
 Curso Analise e desenvovlimento de sistemas, Faculdade Estacio.
+Materia com o intuito de ensinar desenvolvimento web, front-end e back-end.
 
 ## Requisitos
 YURI FIALHO (2023)
