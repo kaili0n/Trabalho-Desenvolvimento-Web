@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin: 8px 0;
+    vertical-align: middle;
+    width: 100%;
+}
+nav li{
+    display: inline-flex;
+    margin: 5px 1%;
+    vertical-align: middle;
+    font-size: 17px;
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    text-align: right;
+}
+#logo{
+    margin: auto 650px auto 50px;
+    width: 6%;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown > span {
+    display: inline-block;
+    padding: 10px;
+    background-color: #A396C8;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.dropdown > span:hover {
+    background-color: #ddd;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 10px;
+}
+
+.dropdown-content span {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.dropdown-content span:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#banner{
+    background-color: #A396C8;
+    width: 100%;
+    padding: 50px 0;
+    padding-bottom: 150px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    color: #FFFF;
+}
+.feed{
+    display: flex;
+    justify-content: center;
+}
+#postagem, form{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 20px;
+    background-color: white;
+}
+img{
+    width: 250px;
+    border-radius: 10px 0 0 10px;
+}
+table{
+    width: 300px;
+    margin: 20px;
+}
+#texto{
+    height: 50px;
+}
+td{
+    font-family: 'Fraunces', serif;
+    font-size: 16px;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+button{
+    text-align: center;
+    color: white;
+    width: 220px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background: #c64343;
+    border-color: #c64343;
+    font-family: 'Fraunces', serif;
+}

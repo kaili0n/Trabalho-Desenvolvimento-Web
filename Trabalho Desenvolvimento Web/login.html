@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="C:\Users\kaill\OneDrive\Desktop\Trabalho Desenvolvimento Web\PUBLIC\IMG\favicon-16x16.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/login.css">
+    <title>Mundo da Adoção</title>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><img id="logo" src="IMG/LOGO.png" alt="logo Adote um pet"></li>
+            <li><a href="index.php">Quero adotar</li></a>
+            <li><a href="gerenciamento.php">Meus animais</li></a>
+            <li><a href="login.html">Login</a></li>
+            <li>
+                <div class="dropdown">
+                    <span>Cadastro</span>
+                    <div class="dropdown-content">
+                        <span>Cadastro Doador</span>
+                        <span>Cadastro Adotante</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <script>
+        document.querySelector('.dropdown-content span:nth-child(1)').addEventListener('click', function() {
+            window.location.href = 'cadastro-doador.html';
+        });
+
+        document.querySelector('.dropdown-content span:nth-child(2)').addEventListener('click', function() {
+            window.location.href = 'cadastro-adotar.html';
+        });
+    </script>
+</header>
+        <h1 id="banner">Boas-vindas ao Mundo da Adoção</h1>
+        <div id="boxs">
+            <div class="box">
+                <form action="login.php" method="post">
+                    <ul>
+                        <li><img src="img/CLUBE DA ADOCAO.png"></li>
+                        <li><input type="text" minlength="8" autofocus id="username" name="username" placeholder="Usuário" required></li>
+                        <li><input type="password" id="pass" name="pass" placeholder="Senha" required></li>
+                        <li><button type="submit">Logar</button></li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+
+</body>
+</html>

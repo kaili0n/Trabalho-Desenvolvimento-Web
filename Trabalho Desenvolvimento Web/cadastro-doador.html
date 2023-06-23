@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon-16x16.png " type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/cadastro-doador.css">
+    <title>Mundo da Adoção</title>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><img id="logo" src="IMG/LOGO.png" alt="logo Adote um pet"></li>
+            <li><a href="index.html">Quero adotar</li></a>
+            <li><a href="gerenciamento.php">Meus animais</li></a>
+            <li><a href="login.html">Login</a></li>
+            <li>
+                <div class="dropdown">
+                    <span>Cadastro</span>
+                    <div class="dropdown-content">
+                        <span>Cadastro Doador</span>
+                        <span>Cadastro Adotante</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <script>
+        document.querySelector('.dropdown-content span:nth-child(1)').addEventListener('click', function() {
+            window.location.href = 'cadastro-doador.html';
+        });
+
+        document.querySelector('.dropdown-content span:nth-child(2)').addEventListener('click', function() {
+            window.location.href = 'cadastro-adotar.html';
+        });
+    </script>
+</header>
+    <form action="cadastro_doador.php" method="post">
+
+    <h1 id="banner">Crie sua conta</h1>
+        <table id="boxs">
+            <tr>
+                <td colspan="2"><img src="img/CLUBE DA ADOCAO.png"></td>
+            </tr>
+            <tr>
+                <td class="box">
+                        <ul>
+                            <li><legend>Tipo de entidade</legend></li>
+                            <li class="radio" style="margin-left: -9px;"><label for="entidade"><input type="radio" name="tipo_entidade" value="entidade" autofocus="" required>Doador</label></li>
+                            <li class="radio" required><label for="entidade"><input type="radio" name="tipo_entidade" value="entidade" autofocus/>Entidade</label></li>
+                            <li><input type="text" minlength="2" id="nome" name="nome" placeholder="Nome Completo" required></li>
+                            <li><legend>Endereço</legend></li>
+                            <li><input type="text" minlength="4" id="cidade" name="cidade" placeholder="Cidade" required></li>
+                            <li><input type="text" minlength="1" id="uf" placeholder="UF" name="uf" required></li>
+                            <li><input type="tel" minlength="11" id="tel" placeholder="Telefone" name="tel" required></li>
+                            <li><input type="email" minlength="11" id="email" placeholder="Email" name="email" required></li>
+                            <li><label for="pass">Crie uma senha com 8 ou mais caracteres, contendo pelo menos uma letra  maiúscula e um número.</label></li>
+                            <li><input type="password" id="pass" pattern="[0-9a-zA-Z]{8,}" placeholder="Senha" name="pass" required></li>
+                        </ul>
+                </td>
+                <td class="box">
+                        <ul>
+                            <li><legend>Dados do pet</legend></li>
+                                <li><input type="text" minlength="2" placeholder="Nome" name="petNome" required></li>
+                                <li><input type="text" minlength="2" placeholder="Espécie" name="especie" required></li>
+                                <li><input type="text" minlength="2" placeholder="Raça" name="raca" required></li>
+                                <li><input type="number" maxlength="2" placeholder="Idade" min="1" name="idade" required></li>
+                                <li><input type="text" minlength="2" placeholder="Local" name="local"></li>
+                                <li><input type="text" minlength="2" placeholder="Procedimentos" name="procedimentos"></li>
+                                <li><input type="text" minlength="2" id="add" name="informacoes" placeholder="Informações complementares"></li>
+                        </ul>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">Enviar</button></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin: 8px 0;
+    vertical-align: middle;
+    width: 100%;
+}
+nav li{
+    display: inline-flex;
+    margin: 5px 1%;
+    vertical-align: middle;
+    font-size: 17px;
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    text-align: right;
+}
+#logo{
+    margin: auto 650px auto 50px;
+    width: 6%;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown > span {
+    display: inline-block;
+    padding: 10px;
+    background-color: #A396C8;
+    color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.dropdown > span:hover {
+    background-color: #ddd;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 10px;
+}
+
+.dropdown-content span {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.dropdown-content span:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#banner{
+    background-color: #A396C8;
+    width: 100%;
+    padding: 50px 0;
+    padding-bottom: 150px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    color: #FFFF;
+}
+#boxs{
+    margin: -100px auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    border-radius: 15px;
+	width:700px;
+    height: 670px;
+	background-color:#FFFF;
+    vertical-align: middle;
+    box-shadow: rgba(0, 0, 0, 0.08) 10px 10px 20px;
+}
+td{
+    text-align: center;
+}
+td>img{
+    display: flex;
+    margin: auto;
+    width: 180px;
+}
+form li{
+    margin: 5px 0;
+    text-align: center;
+}
+legend{
+    font-family: 'Fraunces', serif;
+}
+label{
+    font-family: 'Fraunces', serif; 
+    display: flex;
+    margin: auto;
+    max-width: 260px;
+}
+form li>input{
+    width: 250px;
+    height: 30px;
+    border-radius: 6px;
+    border-color: #8672c0;
+    margin: auto;
+    text-align: center;
+}
+.radio{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+button{
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background: #A396C8;
+    border-color: #8672c0;
+    font-family: 'Fraunces', serif;
+}
