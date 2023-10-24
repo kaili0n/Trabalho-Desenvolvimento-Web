@@ -5,8 +5,7 @@
  
 </div> 
  
-##### Este repositório foi criado para exibir o Projeto feito na materia de Desenvolvimento web na faculdade estacio, ministrado pelo professor Yuri fialho. A materia com o intuito de ensinar desenvolvimento web, front-end e back-end.
-
+##### Este repositório foi criado para exibir o Projeto desenvolvido na materia de Desenvolvimento web na faculdade estacio, ministrado pelo professor Yuri fialho. A materia com o intuito de ensinar desenvolvimento web, front-end e back-end.
 
 ### 🤔 Requisitos
 • Autenticação
@@ -21,3 +20,8 @@ autenticadas, exceto a index e login
 • Validação
 • Página (Frontend)
 • Servidor (Backend) – Recomenda-se PHP
+
+### Projeto desenvolvido por:
+- <a href="https://github.com/kaili0n">Kaillane Mariano</a>
+- <a href="https://github.com/Loanecmps">Loane Campos</a>
+- <a href="https://github.com/brandaoramon">Ramon Brandão</a>
